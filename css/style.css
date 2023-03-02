@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #182323;
 }
 
 header {
@@ -86,15 +87,21 @@ header {
 
 #about {
   width: 1200px;
+  height: 500px;
   font-family: "Montserrat", sans-serif;
   background-color: #182323;
   color: #e9f8f9;
+  border-bottom: 1px solid #e9f8f9;
 }
 
-#about_title {
+#about_title,
+#projects_title,
+#contact_title {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #e9f8f9;
 }
 
 #about_section {
@@ -137,4 +144,70 @@ header {
   text-align: center;
   color: #e9f8f9;
   border: none;
+}
+
+#projects {
+  width: 1200px;
+  height: 500px;
+  background-color: #182323;
+}
+
+#projects_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 450px;
+}
+
+.boxes {
+  width: 300px;
+  height: 250px;
+  background-color: red;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+}
+
+#box1 {
+  background-image: url("../images/banner_academy.png");
+  background-size: cover;
+}
+
+#box2 {
+  background-image: url("../images/banner_pragramming_code.jpg");
+  background-size: cover;
+}
+
+#box3 {
+  background-image: url("../images/banner_lol.png");
+  background-size: cover;
+}
+
+#contact {
+  width: 1200px;
+  height: 500px;
+  background-color: #537fe7;
+}
+
+#contact_content {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#contact_image {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  margin-left: 25px;
+}
+
+#contact_form {
+  width: 550px;
+  height: 400px;
+  background-color: black;
+  margin-right: 25px;
 }
