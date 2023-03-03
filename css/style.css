@@ -21,6 +21,10 @@ header {
   background-color: #182323;
   font-family: "Roboto Mono", monospace;
   border-bottom: 1px solid #e9f8f9;
+  position: fixed;
+  top: 0;
+  left: 100;
+  width: 79.5%;
 }
 
 #logo_name {
@@ -37,6 +41,7 @@ header {
 }
 
 #home_section {
+  margin-top: 40px;
   width: 1200px;
   height: 400px;
   background-color: #182323;
@@ -87,11 +92,12 @@ header {
 
 #about {
   width: 1200px;
-  height: 500px;
+  height: 550px;
   font-family: "Montserrat", sans-serif;
   background-color: #182323;
   color: #e9f8f9;
   border-bottom: 1px solid #e9f8f9;
+  padding-top: 60px;
 }
 
 #about_title,
@@ -150,6 +156,8 @@ header {
   width: 1200px;
   height: 500px;
   background-color: #182323;
+  border-bottom: 1px solid #e9f8f9;
+  padding-top: 60px;
 }
 
 #projects_content {
@@ -187,7 +195,8 @@ header {
 #contact {
   width: 1200px;
   height: 500px;
-  background-color: #537fe7;
+  background-color: #182323;
+  padding-top: 60px;
 }
 
 #contact_content {
@@ -201,13 +210,72 @@ header {
 #contact_image {
   width: 400px;
   height: 400px;
-  background-color: red;
+  background-image: url("../images/vector_man.jpg");
+  background-size: cover;
   margin-left: 25px;
+  border-radius: 20px;
 }
 
 #contact_form {
   width: 550px;
   height: 400px;
-  background-color: black;
   margin-right: 25px;
+}
+
+#contact_text {
+  resize: none;
+}
+
+#form_name,
+#form_email,
+#form_number,
+#contact_text {
+  display: block;
+  width: 98%;
+  margin-left: 10px;
+  padding: 12px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#contact_button {
+  float: right;
+  margin-right: 6px;
+  background-color: #537fe7;
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: #e9f8f9;
+}
+
+footer {
+  width: 1200px;
+  height: 500px;
+  background-color: #537fe7;
+  margin-top: 65px;
+}
+
+#footer_content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#footer_box1,
+#footer_box2,
+#footer_box3 {
+  width: 300px;
+  height: 200px;
+  background-color: red;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#footer_box2 {
+  display: flex;
+  flex-direction: column;
 }
