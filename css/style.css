@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #182323;
+  background-color: #181823;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   width: 1200px;
   height: 60px;
-  background-color: #182323;
+  background-color: #181823;
   font-family: "Roboto Mono", monospace;
   border-bottom: 1px solid #e9f8f9;
   position: fixed;
@@ -44,7 +44,7 @@ header {
   margin-top: 40px;
   width: 1200px;
   height: 400px;
-  background-color: #182323;
+  background-color: #181823;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,7 +94,7 @@ header {
   width: 1200px;
   height: 550px;
   font-family: "Montserrat", sans-serif;
-  background-color: #182323;
+  background-color: #181823;
   color: #e9f8f9;
   border-bottom: 1px solid #e9f8f9;
   padding-top: 60px;
@@ -155,7 +155,7 @@ header {
 #projects {
   width: 1200px;
   height: 500px;
-  background-color: #182323;
+  background-color: #181823;
   border-bottom: 1px solid #e9f8f9;
   padding-top: 60px;
 }
@@ -195,7 +195,7 @@ header {
 #contact {
   width: 1200px;
   height: 580px;
-  background-color: #182323;
+  background-color: #181823;
   padding-top: 60px;
   border-bottom: 1px solid #e9f8f9;
 }
@@ -255,7 +255,7 @@ header {
 footer {
   width: 1200px;
   height: 500px;
-  background-color: #182323;
+  background-color: #181823;
   color: #e9f8f9;
 }
 
