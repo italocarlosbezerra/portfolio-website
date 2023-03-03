@@ -27,4 +27,4 @@ Esse projeto foi feito com as seguintes tecnologias:
 
 <br>
 
-Made by Italo Bezerra.
+Made by Italo Carlos Bezerra.
